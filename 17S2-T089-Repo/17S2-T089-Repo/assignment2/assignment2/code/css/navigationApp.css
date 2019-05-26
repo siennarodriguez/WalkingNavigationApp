@@ -1,0 +1,37 @@
+html, body { 
+    height: 100%; 
+    margin: 0; 
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+#map {
+    width: 100%;
+    /* 
+     * 100% of view height (100vh), minus:
+     *  -  Title bar: 56 pixels
+     *  -  Space at bottom: 128 pixels (increase to make more space)
+     */
+    height: calc(100vh - 224px);
+}
+
+#generalInfo {
+    width: 100%;
+}
+
+img.turnImage {
+    position: fixed;
+    margin: auto;
+    height: inherit;
+    padding-bottom: 2px;
+
+}
+
+#backGround {
+    height: 50px;
+	width: 100%;
+    background-color: aliceblue;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}

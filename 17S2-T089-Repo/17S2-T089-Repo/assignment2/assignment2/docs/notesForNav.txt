@@ -1,0 +1,6 @@
+**Directions for maps
+
+Use the "google.maps.geometry.spherical.computeHeading(from: latlng, to: latlng)" method to find the heading between the point
+availablePaths[pathIndex].heading. Given the returned value, output to the map an image that shows left, right, u-turn etc.
+
+Make a class method that returns the heading between two points.
